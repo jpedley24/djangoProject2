@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-tbsd@uulv4gct*)o$s6m(q3dya5$8zkomw5##r4at(dtgg0xcc
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["jpedley24-webapp.onrender.com", '127.0.0.1']
+ALLOWED_HOSTS = ["dpg-cf3g6j9gp3jl0q4aeqj0-a.onrender.com", '127.0.0.1']
 
 
 # Application definition
@@ -87,7 +87,7 @@ DATABASES = {
 """
 
 DATABASES = {
-'default': dj_database_url.config(default='postgresql://postgres:postgres@localhost:5432/jpedley24-webapp',
+'default': dj_database_url.config(default='postgresql://postgres:postgres@localhost:5432/dpg-cf3g6j9gp3jl0q4aeqj0-a',
                                   conn_max_age=600)}
 
 # Password validation
