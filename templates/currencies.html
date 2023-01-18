@@ -1,0 +1,22 @@
+{%  load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<img src="{% static "myapp/Picture1.png" %}" alt="image" width="400px">
+<table>
+    <tr>
+        <th>ISO Symbol</th>
+        <th>Long Name</th>
+    </tr>
+    {% for c in currencies %}
+        <tr>
+            <td>{{ c.iso }}</td><td>{{ c.long_name }}</td>
+        </tr>
+    {% endfor %}
+</table>
+</body>
+</html>
